@@ -45,7 +45,7 @@ int DQueue_dequeue(DQueue* dq)
         int aux_first = dq->first;
         dq->first = (dq->first + 1)%dq->scale;
         dq->quantity-=1;
-        dq->itens[aux_first] = 0;
+        dq->itens[aux_first] = 696969; //  Sim, é pra ser considerado LIXO DE MEMÓRIA os "MeIaS NoVeS" KkKkKk LOL (XD)
         return return_value;
     }
     else
